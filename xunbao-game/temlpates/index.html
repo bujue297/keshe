@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寻宝游戏</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <h1>欢迎来到寻宝游戏</h1>
+    <div id="playerInfo">
+        <label for="username">用户名:</label>
+        <input type="text" id="username" placeholder="请输入用户名">
+        <button id="loginBtn">登录</button>
+        <button id="registerBtn">注册</button>
+    </div>
+    <button id="startGameBtn" style="display: none;">开始游戏</button>
+    <button id="viewHistoryBtn">查看历史记录</button>
+    <button id="resetGameBtn">重置游戏</button>
+    <div id="output"></div>
+    <img id="storyImage" src="" alt="Story Image" style="display:none;">
+    <audio id="backgroundMusic" loop>
+        <source src="static/audio/background.mp3" type="audio/mpeg">
+        您的浏览器不支持音频元素。
+    </audio>
+    <ul id="scoreList" style="display: none;"></ul>
+    <script src="static/js/game.js"></script>
+</body>
+</html>
