@@ -1,0 +1,52 @@
+/* 设置游戏页面的样式 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    color: #333;
+}
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s; /* 添加过渡效果 */
+}
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* 鼠标悬停时放大 */
+}
+button:active {
+    transform: scale(0.95); /* 鼠标点击时缩小 */
+}
+#output {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 600px;
+    text-align: left;
+    height: 200px;
+    overflow-y: auto;
+}
+#scoreList {
+    list-style: none;
+    margin: 20px auto;
+    padding: 0;
+    max-width: 600px;
+}
+#scoreList li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
